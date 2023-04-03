@@ -1,0 +1,13 @@
+import React from 'react'
+
+function Content() {
+    return (
+        <div>
+            <p>
+                Sustainable web design - initializing principles
+            </p>
+        </div>
+    )
+}
+
+export default Content

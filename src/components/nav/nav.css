@@ -1,0 +1,5 @@
+nav {
+    background: var(--color-primary-variant);
+    width: max-content;
+    display: block;
+}
