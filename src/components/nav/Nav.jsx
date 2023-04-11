@@ -5,7 +5,8 @@ const Nav = () => {
 
   return (
     <nav>
-      <p>Navbar</p>
+      <a href="#">Page 1</a>
+      <a href="#">Page 2</a>
     </nav>
   )
 }

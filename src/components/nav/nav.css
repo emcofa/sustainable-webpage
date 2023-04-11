@@ -1,5 +1,14 @@
 nav {
     background: var(--color-primary-variant);
-    width: max-content;
-    display: block;
+    width: 100%;
+    padding: 0.7rem 1.7rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.8rem;
+}
+
+nav a {
+    padding: 0.9rem;
+    color: var(--color-white);
+    font-size: 1.1rem;
 }
