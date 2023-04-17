@@ -2,7 +2,7 @@
     width: 100%;
     padding: 0.7rem 1.7rem;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 0.8rem;
     animation: colorChange 6s ease-in-out infinite;
 }
@@ -12,14 +12,27 @@ nav {
     width: 100%;
     padding: 0.7rem 1.7rem;
     display: flex;
-    justify-content: flex-end;
-    gap: 0.8rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 
 nav a {
     padding: 0.9rem;
     color: var(--color-black);
     font-size: 1.1rem;
+}
+
+.nav-links {
+    display: flex;
+}
+
+nav a:last-child {
+    margin-left: 1.5rem;
+}
+
+nav img {
+    width: 100px;
 }
 
 

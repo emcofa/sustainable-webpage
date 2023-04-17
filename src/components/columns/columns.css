@@ -53,6 +53,12 @@
     background-color: var(--color-primary-variant);
 }
 
+
+.svg-icon{
+    width: 25%; 
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 768px) {
     .columns-container {
         flex-direction: column;
