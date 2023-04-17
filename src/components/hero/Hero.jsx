@@ -10,7 +10,12 @@ function Hero() {
     return (
         <div className="hero-container">
             <div className="hero-heading">
-                <h1>Webpage 1</h1>
+                <h3>Lorem ipsum dolor sit amet</h3>
+            </div>
+            <div className="hero-container-button">
+                <div className="hero-button">
+                    <button className="my-button click-button">Button</button>
+                </div>
             </div>
             <div className="hero-gallery">
                 <img
@@ -28,7 +33,7 @@ function Hero() {
                     alt="Third Image"
                     className={activeIndex === 2 ? "active" : ""}
                 />
-                <button onClick={() => setActiveIndex((activeIndex + 1) % 3)}>Next</button>
+                <button className="next-button" onClick={() => setActiveIndex((activeIndex + 1) % 3)}>&gt;</button>
             </div>
         </div>
     );

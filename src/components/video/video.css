@@ -1,11 +1,21 @@
 .large-img__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+
+.video-title {
+    position: absolute;
+    z-index: 1;
     text-align: center;
-    margin-top: 2rem;
-    padding: 2rem;
+    color: var(--color-white);
 }
 
 .large-img__container img {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
 }
 

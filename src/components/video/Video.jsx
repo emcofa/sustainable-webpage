@@ -6,7 +6,7 @@ function Video() {
     return (
         <div>
             <div className='large-img__container'>
-                <h2>Heading 2</h2>
+                <h1 className='video-title'>Webpage 1</h1>
                 <div className='video-container'>
                     <video src={LakeVideo} controls autoPlay loop muted width='100%' height='auto' />
                 </div>

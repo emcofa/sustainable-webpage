@@ -2,6 +2,20 @@
     position: relative;
 }
 
+.hero-container-button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 1;
+}
+
+
+.hero-button {
+    text-align: center;
+}
+
+
 .hero-heading {
     position: absolute;
     top: 50%;
@@ -38,17 +52,36 @@
 
 .hero-gallery button {
     position: absolute;
-    bottom: 0;
+    top: 50%;
     right: 0;
     margin: 20px;
     padding: 10px;
-    background-color: var(--color-white);
+    background-color: transparent;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
+    font-size: 2rem;
+    color: var(--color-white);
 }
 
 .hero-gallery button:hover {
-    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+.my-button {
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    border: none;
+    color: var(--color-white);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.my-button:hover {
+    background-color: var(--color-primary-variant);
 }
