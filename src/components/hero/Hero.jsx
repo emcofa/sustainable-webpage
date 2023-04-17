@@ -10,7 +10,7 @@ function Hero() {
     return (
         <div className="hero-container">
             <div className="hero-heading">
-                <h1>Heading 1</h1>
+                <h1>Website 1</h1>
             </div>
             <div className="hero-gallery">
                 <img
