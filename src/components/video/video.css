@@ -1,0 +1,24 @@
+.large-img__container {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.large-img__container img {
+    max-width: 90%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .large-img__container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .large-img__container video {
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+}

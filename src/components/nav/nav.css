@@ -1,5 +1,14 @@
+.nav__above {
+    width: 100%;
+    padding: 0.7rem 1.7rem;
+    display: flex;
+    justify-content:center;
+    gap: 0.8rem;
+    animation: colorChange 6s ease-in-out infinite;
+}
+
 nav {
-    background: var(--color-primary-variant);
+    background: var(--color-white);
     width: 100%;
     padding: 0.7rem 1.7rem;
     display: flex;
@@ -9,6 +18,21 @@ nav {
 
 nav a {
     padding: 0.9rem;
-    color: var(--color-white);
+    color: var(--color-black);
     font-size: 1.1rem;
+}
+
+
+@keyframes colorChange {
+    0% {
+        background-color: var(--color-primary-variant);
+    }
+
+    50% {
+        background-color: var(--color-primary);
+    }
+
+    100% {
+        background-color: var(--color-primary-variant);
+    }
 }
