@@ -9,6 +9,9 @@ import Image from "../image/Image";
 const PageOne = () => {
     return (
         <>
+            <div className="nav__above">
+                <p>This is the template for webpage 1</p>
+            </div>
             <Video />
             <Content />
             <Hero />

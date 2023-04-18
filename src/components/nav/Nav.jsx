@@ -6,9 +6,6 @@ import Logo from "../../assets/logo.png";
 const Nav = () => {
     return (
         <div>
-            <div className="nav__above">
-                <p>This is the template for webpage 1</p>
-            </div>
             <nav>
                 <img src={Logo} alt="logo" />
                 <div className="nav-links">
