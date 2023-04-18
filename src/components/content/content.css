@@ -2,6 +2,8 @@
     padding: 1rem;
     display: flex;
     flex-wrap: wrap;
+    background-color: var(--color-primary-light);
+    color: var(--color-black);
 }
 
 .flex__container {
@@ -10,6 +12,7 @@
     align-items: flex-start;
     width: 100%;
     margin-bottom: 1rem;
+    padding: 4rem;
 }
 
 .flex__container div:first-child {
@@ -32,6 +35,14 @@
 .flex__container img {
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    transition: transform 0.5s ease-out, box-shadow 0.5s ease-out, z-index 0s linear 0.5s;
+}
+
+.flex__container img:hover {
+    transform: rotate(10deg) scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 6px 16px;
+    z-index: 1;
 }
 
 @media (max-width: 768px) {

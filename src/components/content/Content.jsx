@@ -1,5 +1,5 @@
 import React from 'react'
-import Lake from '../../assets/lake-unsplash.jpg'
+import Sun from '../../assets/sun.jpg'
 import './content.css'
 
 function Content() {
@@ -13,11 +13,11 @@ function Content() {
                     </p>
                     <br />
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ipsum dui. Nunc maximus est sit amet dui efficitur, id dapibus augue suscipit. Pellentesque volutpat arcu eu justo consectetur hendrerit. Fusce et ex sem. Sed nec ligula quis augue pellentesque vulputate. Duis ac nisi at sem aliquam bibendum eu non lacus. Ut eget consectetur nunc. Donec eu nulla vel mauris vestibulum bibendum. Nam sit amet leo non arcu facilisis malesuada non a quam. Duis id dapibus enim, a hendrerit ex. Sed ornare enim vel dolor iaculis, eu vestibulum est luctus.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ipsum dui. Nunc maximus est sit amet dui efficitur, id dapibus augue suscipit.
                     </p>
                 </div>
                 <div>
-                    <img src={Lake} alt="lake-unsplash" />
+                    <img src={Sun} alt="sunset" />
                 </div>
             </div>
         </div >
