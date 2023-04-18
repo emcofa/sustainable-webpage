@@ -60,7 +60,7 @@
     border: none;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
-    font-size: 2rem;
+    font-size: 1rem;
     color: var(--color-white);
 }
 

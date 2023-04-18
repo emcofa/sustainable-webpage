@@ -33,7 +33,7 @@ function Hero() {
                     alt="Third Image"
                     className={activeIndex === 2 ? "active" : ""}
                 />
-                <button className="next-button" onClick={() => setActiveIndex((activeIndex + 1) % 3)}>&gt;</button>
+                <button className="next-button" onClick={() => setActiveIndex((activeIndex + 1) % 3)}>Next</button>
             </div>
         </div>
     );

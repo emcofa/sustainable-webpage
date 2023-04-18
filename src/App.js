@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer'
 import Hero from './components/hero/Hero'
 import Information from './components/information/Information'
 import Columns from './components/columns/Columns'
+import Image from './components/image/Image'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <Information />
       <Columns />
+      <Image />
       <Footer />
     </>
   );
