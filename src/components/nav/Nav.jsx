@@ -9,8 +9,8 @@ const Nav = () => {
             <nav>
                 <img src={Logo} alt="logo" />
                 <div className="nav-links">
-                    <NavLink to="/">Page 1</NavLink>
-                    <NavLink to="/2">Page 2</NavLink>
+                    <NavLink to="/sustainable-webpage">Page 1</NavLink>
+                    <NavLink to="/sustainable-webpage/2">Page 2</NavLink>
                 </div>
             </nav>
         </div>
