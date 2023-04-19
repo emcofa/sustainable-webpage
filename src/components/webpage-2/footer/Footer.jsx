@@ -24,7 +24,7 @@ const Footer = () => {
               <ul>
                 <li><a href="#">Front page</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Contakt</a></li>
+                <li><a href="#">Contact</a></li>
               </ul>
             </div>
             <div className="footer-column footer-column-social">
