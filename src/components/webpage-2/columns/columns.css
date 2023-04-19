@@ -51,11 +51,38 @@
 
 .column button:hover {
     background-color: var(--color-primary-variant);
+    animation: shake 0.8s ease-in-out;
+    animation-iteration-count: 1;
 }
 
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
 
-.svg-icon{
-    width: 25%; 
+    20% {
+        transform: translateX(-10px) rotate(-5deg);
+    }
+
+    40% {
+        transform: translateX(10px) rotate(5deg);
+    }
+
+    60% {
+        transform: translateX(-10px) rotate(-5deg);
+    }
+
+    80% {
+        transform: translateX(10px) rotate(5deg);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.svg-icon {
+    width: 25%;
     margin: 0 auto;
 }
 

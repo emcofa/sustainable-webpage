@@ -15,6 +15,38 @@
     text-align: center;
 }
 
+.hero-button button:hover {
+    background-color: var(--color-primary-variant);
+    animation: shake 0.8s ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-10px) rotate(-5deg);
+    }
+
+    40% {
+        transform: translateX(10px) rotate(5deg);
+    }
+
+    60% {
+        transform: translateX(-10px) rotate(-5deg);
+    }
+
+    80% {
+        transform: translateX(10px) rotate(5deg);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
 
 .hero-heading {
     position: absolute;
@@ -66,22 +98,4 @@
 
 .hero-gallery button:hover {
     opacity: 0.7;
-}
-
-.my-button {
-    background-color: var(--color-primary);
-    border-radius: 10px;
-    border: none;
-    color: var(--color-white);
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.my-button:hover {
-    background-color: var(--color-primary-variant);
 }

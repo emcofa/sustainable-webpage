@@ -14,7 +14,7 @@ function Hero() {
             </div>
             <div className="hero-container-button">
                 <div className="hero-button">
-                    <button className="my-button click-button">Button</button>
+                    <button className="my-button">Button</button>
                 </div>
             </div>
             <div className="hero-gallery">
