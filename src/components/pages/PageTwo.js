@@ -1,3 +1,4 @@
+import styleTwo from "../../css/indexTwo.module.css";
 import Content from "../content/Content";
 import Video from "../video/Video";
 import Footer from "../footer/Footer";
@@ -8,7 +9,7 @@ import Image from "../image/Image";
 
 const PageTwo = () => {
     return (
-        <>
+        <div className={styleTwo.root}>
             <div className="nav__above">
                 <p>This is the template for webpage 2</p>
             </div>
@@ -19,7 +20,7 @@ const PageTwo = () => {
             <Columns />
             <Image />
             <Footer />
-        </>
+        </div>
     );
 };
 

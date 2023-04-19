@@ -1,3 +1,4 @@
+import styles from "../../css/indexOne.module.css";
 import Content from "../content/Content";
 import Video from "../video/Video";
 import Footer from "../footer/Footer";
@@ -8,7 +9,7 @@ import Image from "../image/Image";
 
 const PageOne = () => {
     return (
-        <>
+        <div className={styles.root}>
             <div className="nav__above">
                 <p>This is the template for webpage 1</p>
             </div>
@@ -19,7 +20,7 @@ const PageOne = () => {
             <Columns />
             <Image />
             <Footer />
-        </>
+        </div>
     );
 };
 

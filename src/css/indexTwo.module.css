@@ -9,15 +9,15 @@
   text-decoration: none;
 }
 
-:root {
-  --color-bg: #fff;
-  --color-bg-variant: #f5f5f5;
-  --color-primary: #016bb6;
-  --color-primary-variant: #8bcbe4;
-  --color-primary-light: #d0f2ff;
+.root {
+  --color-bg: #25cd63;
+  --color-bg-variant: #36d22b;
+  --color-primary: #b62801;
+  --color-primary-variant: #e4958b;
+  --color-primary-light: #ffddd0;
   --color-black: #000;
-  --color-white: #fff;
-  --color-light: rgba(37, 37, 37, 0.6);
+  --color-white: #12a815;
+  --color-light: rgba(208, 22, 22, 0.6);
 
   --special-font: 'Amatic SC', cursive;
   --transition: all 400ms ease;
