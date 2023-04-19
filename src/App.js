@@ -9,8 +9,8 @@ function App() {
         <BrowserRouter>
             <Nav />
             <Routes>
-                <Route path="/" element={<PageOne />} />
-                <Route path="/2" element={<PageTwo />} />
+                <Route path="/sustainable-webpage" element={<PageOne />} />
+                <Route path="/sustainable-webpage/2" element={<PageTwo />} />
             </Routes>
         </BrowserRouter>
     );
