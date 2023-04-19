@@ -1,5 +1,5 @@
 import React from 'react'
-import Sun from '../../assets/sun.jpg'
+import Sun from '../../../assets/webpage-1/sun.jpg'
 import './content.css'
 
 function Content() {

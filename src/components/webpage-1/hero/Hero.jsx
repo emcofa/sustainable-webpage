@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './hero.css'
-import Lake from '../../assets/lake-unsplash.jpg'
-import Sea from '../../assets/sea-unsplash.jpg'
-import Nature from '../../assets/nature-unsplash.jpg'
+import Lake from '../../../assets/webpage-1/lake-unsplash.jpg'
+import Sea from '../../../assets/webpage-1/sea-unsplash.jpg'
+import Nature from '../../../assets/webpage-1/nature-unsplash.jpg'
 
 function Hero() {
     const [activeIndex, setActiveIndex] = useState(0);

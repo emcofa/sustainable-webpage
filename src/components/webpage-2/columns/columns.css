@@ -1,0 +1,75 @@
+.columns-parent h2 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.columns-parent p {
+    text-align: center;
+}
+
+.columns-container {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.column {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.column h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.column button {
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    border: none;
+    color: var(--color-white);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.column button:hover {
+    background-color: var(--color-primary-variant);
+}
+
+
+.svg-icon{
+    width: 25%; 
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .columns-container {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .column p {
+        font-size: 0.8rem;
+    }
+}
