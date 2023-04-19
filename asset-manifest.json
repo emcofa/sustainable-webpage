@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sustainable-webpage/static/css/main.5515e447.css",
-    "main.js": "/sustainable-webpage/static/js/main.af50631c.js",
+    "main.css": "/sustainable-webpage/static/css/main.c3486822.css",
+    "main.js": "/sustainable-webpage/static/js/main.cc6d383f.js",
     "static/js/787.a91c73ea.chunk.js": "/sustainable-webpage/static/js/787.a91c73ea.chunk.js",
     "static/media/pexels-video.mp4": "/sustainable-webpage/static/media/pexels-video.175dd70937c04dbb42a4.mp4",
     "static/media/mountain.jpg": "/sustainable-webpage/static/media/mountain.a4aae491ec385a38265b.jpg",
@@ -15,12 +15,12 @@
     "static/media/butterfly.jpg": "/sustainable-webpage/static/media/butterfly.2371d88a9e7acfba5659.jpg",
     "static/media/svg.svg": "/sustainable-webpage/static/media/svg.75e841ab864f68916585031cc9d81915.svg",
     "index.html": "/sustainable-webpage/index.html",
-    "main.5515e447.css.map": "/sustainable-webpage/static/css/main.5515e447.css.map",
-    "main.af50631c.js.map": "/sustainable-webpage/static/js/main.af50631c.js.map",
+    "main.c3486822.css.map": "/sustainable-webpage/static/css/main.c3486822.css.map",
+    "main.cc6d383f.js.map": "/sustainable-webpage/static/js/main.cc6d383f.js.map",
     "787.a91c73ea.chunk.js.map": "/sustainable-webpage/static/js/787.a91c73ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5515e447.css",
-    "static/js/main.af50631c.js"
+    "static/css/main.c3486822.css",
+    "static/js/main.cc6d383f.js"
   ]
 }
