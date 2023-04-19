@@ -1,6 +1,6 @@
-import React from "react";
-import Sun from "../../assets/sun.jpg";
-import "./content.css";
+import React from 'react'
+import Sun from '../../assets/sun.jpg'
+import './content.css'
 
 function Content() {
     return (
