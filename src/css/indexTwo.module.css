@@ -10,14 +10,14 @@
 }
 
 .pageTwo {
-  --color-bg: #25cd63;
-  --color-bg-variant: #36d22b;
-  --color-primary: #b62801;
-  --color-primary-variant: #e4958b;
-  --color-primary-light: #ffddd0;
+  --color-bg: #2d2d2d;
+  --color-bg-variant: #262626;
+  --color-primary: #28a745;
+  --color-primary-variant: #80c783;
+  --color-primary-light: #c6f6d5;
   --color-black: #000;
-  --color-white: #12a815;
-  --color-light: rgba(208, 22, 22, 0.6);
+  --color-white: #d9f8cf;
+  --color-light: rgba(62, 243, 12, 0.6);
 
   --special-font: 'Amatic SC', cursive;
   --transition: all 400ms ease;
