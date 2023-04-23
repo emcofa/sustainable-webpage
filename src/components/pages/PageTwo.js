@@ -9,7 +9,7 @@ import Image from "../image/Image";
 
 const PageTwo = () => {
     return (
-        <div className={styleTwo.root}>
+        <div className={styleTwo.pageTwo}>
             <div className="nav__above">
                 <p>This is the template for webpage 2</p>
             </div>

@@ -9,7 +9,7 @@
   text-decoration: none;
 }
 
-.root {
+.pageTwo {
   --color-bg: #25cd63;
   --color-bg-variant: #36d22b;
   --color-primary: #b62801;
@@ -24,6 +24,7 @@
   --container-width-lg: 75%;
   --container-width-md: 86;
   --container-width-sm: 90%;
+  background-color: var(--color-bg);
 }
 
 html {
