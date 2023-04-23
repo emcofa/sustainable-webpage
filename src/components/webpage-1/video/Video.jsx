@@ -1,6 +1,6 @@
 import React from "react";
 import "./video.css";
-import LakeVideo from "../../assets/pexels-video.mp4";
+import LakeVideo from '../../../assets/webpage-1/pexels-video.mp4';
 
 function Video() {
     return (

@@ -1,0 +1,131 @@
+.site-footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 10px 0;
+    font-size: 1.2rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10rem;
+    margin-top: 50px;
+}
+
+.footer-sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    width: 100%;
+}
+
+.footer-column {
+    flex-grow: 1;
+}
+
+.footer-column-header {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-column-header h2 {
+    margin-bottom: 10px;
+}
+
+.footer-column-header p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.footer-column h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons li {
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.fa-facebook-f {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+}
+
+.fa-instagram {
+    color: #e4405f;
+}
+
+.footer-text {
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .footer-column {
+        flex-basis: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .footer-sub-container {
+        gap: 2rem;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    /* Justera fontstorleken på mindre skärmar */
+    .site-footer, .footer-column h2, .footer-column p, .footer-column ul li, .footer-text {
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,88 @@
+.scroll__image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    transition: width 0.5s ease-out;
+}
+
+#image {
+    filter: brightness(50%) saturate(100%);
+}
+
+.scroll__text-container {
+    position: absolute;
+    bottom: 12%;
+    left: 8%;
+    padding: 3rem;
+    width: 60%;
+    color: var(--color-white)
+}
+
+.text {
+    font-size: 18px;
+    margin: 0;
+}
+
+.scroll__button-container {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.scroll__button {
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    color: var(--color-black);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: var(--color-white);
+}
+
+.scroll__button:hover {
+    opacity: 0.8;
+}
+
+
+
+@media (max-width: 600px) {
+    .scroll__image-container {
+        flex-direction: column-reverse;
+    }
+
+    .scroll__text-container {
+        position: static;
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+        color: var(--color-black)
+    }
+
+    .scroll__button-container {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .text {
+        color: var(--color-black);
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .scroll__button {
+        background-color: var(--color-primary-variant);
+        color: var(--color-white);
+    }
+}

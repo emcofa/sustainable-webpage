@@ -7,6 +7,7 @@ import Information from "../information/Information";
 import Columns from "../columns/Columns";
 import Image from "../image/Image";
 
+
 const PageOne = () => {
     return (
         <div className={styles.pageOne}>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Lake from '../../assets/mountain.jpg'
+import Lake from '../../../assets/webpage-1/mountain.jpg'
 import './image.css'
 
 function Image() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import './columns.css';
-import Svg from '../../assets/svg.svg'
+import Svg from '../../../assets/webpage-1/svg.svg'
 
 function Columns() {
     return (
