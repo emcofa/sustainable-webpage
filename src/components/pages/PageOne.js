@@ -1,11 +1,11 @@
 import styles from "../../css/indexOne.module.css";
-import Content from "../content/Content";
-import Video from "../video/Video";
-import Footer from "../footer/Footer";
-import Hero from "../hero/Hero";
-import Information from "../information/Information";
-import Columns from "../columns/Columns";
-import Image from "../image/Image";
+import Content from "../webpage-1/content/Content";
+import Video from "../webpage-1/video/Video";
+import Footer from "../webpage-1/footer/Footer";
+import Hero from "../webpage-1/hero/Hero";
+import Information from "../webpage-1/information/Information";
+import Columns from "../webpage-1/columns/Columns";
+import Image from "../webpage-1/image/Image";
 
 
 const PageOne = () => {
