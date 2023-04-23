@@ -7,8 +7,18 @@
     animation: colorChange 6s ease-in-out infinite;
 }
 
-nav {
+.nav-container {
     background: var(--color-white);
+    width: 100%;
+    padding: 0.7rem 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-container-two {
+    background: green;
     width: 100%;
     padding: 0.7rem 1.7rem;
     display: flex;
@@ -34,7 +44,6 @@ nav a:last-child {
 nav img {
     width: 150px;
 }
-
 
 @keyframes colorChange {
     0% {
