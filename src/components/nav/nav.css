@@ -8,7 +8,7 @@
 }
 
 nav {
-    background: var(--color-white);
+    background: linear-gradient(to right, var(--color-white), var(--color-primary-light));
     width: 100%;
     padding: 0.7rem 1.7rem;
     display: flex;
@@ -27,8 +27,13 @@ nav a {
     display: flex;
 }
 
-nav a:last-child {
-    margin-left: 1.5rem;
+nav a {
+    margin-left: 1rem;
+}
+
+nav a:hover {
+    color: var(--color-primary);
+    transform: scale(1.1);
 }
 
 nav img {
