@@ -67,6 +67,10 @@
     margin-bottom: 5px;
 }
 
+.footer-column ul li a:hover{
+    color: var(--color-primary-variant);
+}
+
 .social-icons {
     display: flex;
     align-items: center;
