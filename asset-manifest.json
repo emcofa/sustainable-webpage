@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sustainable-webpage/static/css/main.b3866075.css",
-    "main.js": "/sustainable-webpage/static/js/main.809e7048.js",
+    "main.css": "/sustainable-webpage/static/css/main.af5eded5.css",
+    "main.js": "/sustainable-webpage/static/js/main.f4ccb017.js",
     "static/js/787.a91c73ea.chunk.js": "/sustainable-webpage/static/js/787.a91c73ea.chunk.js",
     "static/media/pexels-video.mp4": "/sustainable-webpage/static/media/pexels-video.175dd70937c04dbb42a4.mp4",
     "static/media/mountain.jpg": "/sustainable-webpage/static/media/mountain.a4aae491ec385a38265b.jpg",
@@ -16,12 +16,12 @@
     "static/media/bouncing-svg.svg": "/sustainable-webpage/static/media/bouncing-svg.609fcfda3b6a33e3fb9e14e97cc69beb.svg",
     "static/media/svg.svg": "/sustainable-webpage/static/media/svg.dfad53660959c3bee83d65973b91a103.svg",
     "index.html": "/sustainable-webpage/index.html",
-    "main.b3866075.css.map": "/sustainable-webpage/static/css/main.b3866075.css.map",
-    "main.809e7048.js.map": "/sustainable-webpage/static/js/main.809e7048.js.map",
+    "main.af5eded5.css.map": "/sustainable-webpage/static/css/main.af5eded5.css.map",
+    "main.f4ccb017.js.map": "/sustainable-webpage/static/js/main.f4ccb017.js.map",
     "787.a91c73ea.chunk.js.map": "/sustainable-webpage/static/js/787.a91c73ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3866075.css",
-    "static/js/main.809e7048.js"
+    "static/css/main.af5eded5.css",
+    "static/js/main.f4ccb017.js"
   ]
 }
