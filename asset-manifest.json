@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/sustainable-webpage/static/css/main.af5eded5.css",
-    "main.js": "/sustainable-webpage/static/js/main.f4ccb017.js",
+    "main.js": "/sustainable-webpage/static/js/main.3619298d.js",
     "static/js/787.a91c73ea.chunk.js": "/sustainable-webpage/static/js/787.a91c73ea.chunk.js",
-    "static/media/pexels-video.mp4": "/sustainable-webpage/static/media/pexels-video.175dd70937c04dbb42a4.mp4",
+    "static/media/pexels-video.mp4": "/sustainable-webpage/static/media/pexels-video.a9c965f2b834f6291bb6.mp4",
     "static/media/mountain.jpg": "/sustainable-webpage/static/media/mountain.a4aae491ec385a38265b.jpg",
     "static/media/lake-unsplash.jpg": "/sustainable-webpage/static/media/lake-unsplash.797a285acd5960664aed.jpg",
     "static/media/nature-unsplash.jpg": "/sustainable-webpage/static/media/nature-unsplash.2dbd6506eb54e7b6e113.jpg",
@@ -17,11 +17,11 @@
     "static/media/svg.svg": "/sustainable-webpage/static/media/svg.dfad53660959c3bee83d65973b91a103.svg",
     "index.html": "/sustainable-webpage/index.html",
     "main.af5eded5.css.map": "/sustainable-webpage/static/css/main.af5eded5.css.map",
-    "main.f4ccb017.js.map": "/sustainable-webpage/static/js/main.f4ccb017.js.map",
+    "main.3619298d.js.map": "/sustainable-webpage/static/js/main.3619298d.js.map",
     "787.a91c73ea.chunk.js.map": "/sustainable-webpage/static/js/787.a91c73ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af5eded5.css",
-    "static/js/main.f4ccb017.js"
+    "static/js/main.3619298d.js"
   ]
 }
